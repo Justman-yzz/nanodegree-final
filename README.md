@@ -16,21 +16,18 @@
 
 |  | 결과물 | 무엇을 남겼나 | 바로 보기 |
 |:--|:--|:--|:--|
-| **QUERY** | **BEYOND THE QUERY** | SQL 조회·집계·윈도우 함수·코호트 분석과 과제 기록 | [SQL 저장소](https://github.com/Justman-yzz/nanodegree-sql) |
+| **QUERY** | **BEYOND THE QUERY** | SQL 조회·집계·윈도우 함수·코호트 분석과 실습 기록 | [SQL 저장소](https://github.com/Justman-yzz/nanodegree-sql) |
 | **BUILD** | **FROM PROMPT TO PROOF** | 페르소나 기반 기획, AI 협업, 시각화·대시보드 구현과 검증 | [AI Agent 저장소](https://github.com/Justman-yzz/nanodegree-ai-agent) |
 | **DISCOVER** | **CITY//SHIFT** | 부산 도시철도 기록을 직접 탐험하는 서비스의 분석·구현·배포 | [서비스 실행](https://justman-yzz.github.io/city-shift/) · [소스](https://github.com/Justman-yzz/city-shift) |
 
-> 세 과정의 데이터와 소스는 각각 구분해 관리합니다. AI Agent 과제의 실행 결과물인 **[NEXT VALUE — Hitter Radar](https://github.com/Justman-yzz/next-value-hitter-radar)** 역시 별도 저장소에서 확인할 수 있습니다.
-
 <div align="center">
 
-<img src="assets/summary-poster.png"
-     alt="SQL, AI Agent, CITY//SHIFT 세 가지 결과물을 정리한 비주얼 요약"
-     width="85%" />
-
-<sub>세 가지 결과물과 학습 성과를 정리한 비주얼 요약 · 실제 실행 화면은 각 프로젝트 섹션에서 확인할 수 있습니다.</sub>
+<img src="assets/summary-poster.png" width="95%" alt="세 가지 결과물: SQL, AI Agent, CITY//SHIFT와 배운 점, 앞으로의 계획을 정리한 포스터" />
 
 </div>
+
+> 세 과정의 데이터와 소스는 각각 구분해 관리합니다. AI Agent 학습에서 구현한 **[NEXT VALUE — Hitter Radar](https://github.com/Justman-yzz/next-value-hitter-radar)** 역시 별도 저장소에서 확인할 수 있습니다.
+
 ## 02 / QUERY — BEYOND THE QUERY
 
 ### 결과를 구하기 전에, 무엇을 세는지부터
@@ -45,7 +42,7 @@
 
 가장 크게 배운 것은 **SQL이 정상 실행되는 것과 질문에 맞는 결과를 얻는 것은 다르다**는 점입니다. JOIN으로 행이 중복되거나 사라지지 않는지, 집계 단위와 분모가 무엇인지 확인하는 습관을 익혔습니다.
 
-**[SQL 학습·과제·문제 해결 기록 보기](https://github.com/Justman-yzz/nanodegree-sql)** · [병기별 결과 시각화](https://github.com/Justman-yzz/nanodegree-sql/blob/main/assets/stage-outcomes.svg)
+**[SQL 실습·문제 해결 기록 보기](https://github.com/Justman-yzz/nanodegree-sql)** · [병기별 결과 시각화](https://github.com/Justman-yzz/nanodegree-sql/blob/main/assets/stage-outcomes.svg)
 
 ## 03 / BUILD — FROM PROMPT TO PROOF
 
@@ -53,15 +50,16 @@
 
 AI Agent 학습에서는 **누가 무엇을 판단하려는가**라는 사용자 페르소나에서 출발해 필요한 질문·지표·차트를 정하고, Claude Code와 함께 그래프와 대시보드를 구현했습니다.
 
-과제 결과인 **NEXT VALUE — Hitter Radar**는 MLB 2023~2025 정규시즌 타자 데이터를 탐색하는 산점도와 대시보드입니다. 시즌·선수 필터, KPI, 비교와 탐색적 백테스트 등을 구현했습니다.
+**NEXT VALUE — Hitter Radar**는 MLB 2023~2025 정규시즌 타자 데이터를 탐색하는 산점도와 대시보드입니다. 시즌·선수 필터, KPI, 비교와 탐색적 백테스트 등을 구현했습니다.
 
 **[산점도 실행 ↗](https://justman-yzz.github.io/next-value-hitter-radar/graph.html)** · **[대시보드 실행 ↗](https://justman-yzz.github.io/next-value-hitter-radar/dashboard.html)** · [구현 코드](https://github.com/Justman-yzz/next-value-hitter-radar)
 
 <p align="center">
-  <img src="assets/screens/next-value-graph.png" width="48%" alt="NEXT VALUE ???ㅼ젣 ?곗젏???ㅽ뻾 ?붾㈃" />
-  <img src="assets/screens/next-value-dashboard.png" width="48%" alt="NEXT VALUE ???ㅼ젣 ??쒕낫???ㅽ뻾 ?붾㈃" />
+  <img src="assets/screens/next-value-graph.png" width="49%" alt="NEXT VALUE 실제 산점도 화면" />
+  <img src="assets/screens/next-value-dashboard.png" width="49%" alt="NEXT VALUE 실제 대시보드 화면" />
 </p>
-<p align="center"><sub>?ㅼ젣 ?ㅽ뻾 ?붾㈃ ??怨듦컻??NEXT VALUE ?곗젏?꾩? ??쒕낫??/sub></p>
+
+<p align="center"><sub>NEXT VALUE — Hitter Radar · MLB 타자 데이터를 탐색하는 산점도와 대시보드</sub></p>
 
 ### 협업도 하나의 설계 대상이었다
 
@@ -71,7 +69,7 @@ AI Agent 학습에서는 **누가 무엇을 판단하려는가**라는 사용자
 
 또한 NEXT VALUE에서는 초기 지표가 기존 OPS와 너무 비슷한 신호를 내는 문제를 확인해 잔차 기반 지표로 수정했습니다. **구현한 기능이 실제로 무엇을 설명하는지 점검하고 개선하는 과정**까지 경험했습니다.
 
-**[AI Agent 학습·과제·재현 프롬프트 보기](https://github.com/Justman-yzz/nanodegree-ai-agent)**
+**[AI Agent 협업·구현 기록 보기](https://github.com/Justman-yzz/nanodegree-ai-agent)**
 
 ## 04 / DISCOVER — CITY//SHIFT
 
@@ -152,8 +150,8 @@ CITY//SHIFT를 진행하면서 **데이터를 확보하는 일 자체가 분석�
 
 | 저장소 | 확인할 내용 |
 |:--|:--|
-| [nanodegree-sql](https://github.com/Justman-yzz/nanodegree-sql) | SQL 학습·실습·과제 |
-| [nanodegree-ai-agent](https://github.com/Justman-yzz/nanodegree-ai-agent) | AI Agent 과제·프롬프트·협업 기록 |
+| [nanodegree-sql](https://github.com/Justman-yzz/nanodegree-sql) | SQL 학습·실습·분석 기록 |
+| [nanodegree-ai-agent](https://github.com/Justman-yzz/nanodegree-ai-agent) | AI Agent 구현·프롬프트·협업 기록 |
 | [next-value-hitter-radar](https://github.com/Justman-yzz/next-value-hitter-radar) | MLB 타자 데이터 시각화·대시보드 |
 | [city-shift](https://github.com/Justman-yzz/city-shift) | 부산 도시철도 데이터 탐험 서비스 |
 
@@ -163,6 +161,6 @@ CITY//SHIFT를 진행하면서 **데이터를 확보하는 일 자체가 분석�
 
 **THE OUTPUT IS MORE THAN THE CODE.**
 
-<sub>과제와 서비스, 데이터의 기준, 협업 방식, 그리고 다음 발견을 위한 질문까지.</sub>
+이번 결과물에는 구현된 화면뿐 아니라, 데이터를 다루는 기준과 작업 방식, 그리고 다음 단계로 이어질 질문도 함께 담았습니다.
 
 </div>
