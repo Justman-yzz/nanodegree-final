@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="680" viewBox="0 0 1600 680" role="img" aria-label="WHAT'S THE OUTPUT? 그래서, 뭘 만들었나? QUERY BUILD DISCOVER">
+<defs>
+  <pattern id="grid" width="36" height="36" patternUnits="userSpaceOnUse"><path d="M36 0H0V36" fill="none" stroke="#e7e5df" stroke-width="1" opacity=".52"/></pattern>
+  <filter id="shadow" x="-15%" y="-30%" width="135%" height="160%"><feDropShadow dx="0" dy="6" stdDeviation="8" flood-color="#15272b" flood-opacity=".07"/></filter>
+</defs>
+<rect width="1600" height="680" fill="#f5f3ed"/>
+<rect width="1600" height="680" fill="url(#grid)"/>
+<path d="M0 0H14V680H0Z" fill="#e36f56"/>
+<rect x="74" y="66" width="12" height="12" fill="#df644a"/>
+<text x="98" y="78" font-family="DejaVu Sans, sans-serif" font-size="17" font-weight="bold" letter-spacing="4" fill="#50636d">NANODEGREE  /  FINAL SUBMISSION</text>
+<text x="78" y="191" font-family="DejaVu Sans, sans-serif" font-size="91" font-weight="800" letter-spacing="-5" fill="#172c38">WHAT'S THE</text>
+<text x="76" y="299" font-family="DejaVu Sans, sans-serif" font-size="111" font-weight="800" letter-spacing="-6" fill="#172c38">OUTPUT?</text>
+<path d="M81 328H687" stroke="#172c38" stroke-width="2"/>
+<path d="M81 328H258" stroke="#e36f56" stroke-width="7"/>
+<text x="79" y="400" font-family="Noto Sans CJK KR, NanumGothic, sans-serif" font-size="48" font-weight="700" fill="#172c38">그래서, 뭘 만들었나?</text>
+<text x="81" y="452" font-family="Noto Sans CJK KR, NanumGothic, sans-serif" font-size="23" fill="#526b74">데이터를 읽고, 작업을 설계하고, 발견을 서비스로.</text>
+<rect x="79" y="522" width="628" height="95" rx="9" fill="#e8ecea" opacity=".8"/>
+<text x="100" y="558" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="700" letter-spacing="2" fill="#1d718e">QUERY</text>
+<text x="242" y="558" font-family="DejaVu Sans, sans-serif" font-size="18" fill="#82949a">/</text>
+<text x="271" y="558" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="700" letter-spacing="2" fill="#ac7c2e">BUILD</text>
+<text x="410" y="558" font-family="DejaVu Sans, sans-serif" font-size="18" fill="#82949a">/</text>
+<text x="442" y="558" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="700" letter-spacing="2" fill="#b95374">DISCOVER</text>
+<text x="100" y="588" font-family="Noto Sans CJK KR, NanumGothic, sans-serif" font-size="17" fill="#60727a">과제 · 협업 · 서비스  |  실제 결과로 남긴 학습 기록</text>
+<line x1="770" y1="56" x2="770" y2="622" stroke="#c7d2d2" stroke-width="1.5"/>
+<path d="M770 133H803 M770 316H803 M770 501H803" stroke="#aab9bc" stroke-width="2"/>
+<g filter="url(#shadow)">
+<rect x="805" y="59" width="720" height="164" rx="16" fill="#fffefa" stroke="#d1dddf"/>
+<rect x="805" y="59" width="9" height="164" rx="4" fill="#2b859c"/>
+<rect x="805" y="242" width="720" height="164" rx="16" fill="#fffefa" stroke="#d1dddf"/>
+<rect x="805" y="242" width="9" height="164" rx="4" fill="#c18c3e"/>
+<rect x="805" y="425" width="720" height="194" rx="16" fill="#fffefa" stroke="#d1dddf"/>
+<rect x="805" y="425" width="9" height="194" rx="4" fill="#bd587d"/>
+</g>
+<!-- QUERY -->
+<text x="839" y="99" font-family="DejaVu Sans,sans-serif" font-size="17" font-weight="700" letter-spacing="2" fill="#2b859c">01  /  QUERY</text>
+<text x="838" y="153" font-family="DejaVu Sans,sans-serif" font-size="35" font-weight="800" fill="#172c38">BEYOND THE QUERY</text>
+<text x="840" y="190" font-family="Noto Sans CJK KR, sans-serif" font-size="17" fill="#667980">SQL · 조회, 집계, 데이터 해석</text>
+<g transform="translate(1344 83)">
+<rect width="147" height="110" rx="7" fill="#eef5f4" stroke="#d3e5e6"/>
+<path d="M12 19H135 M12 45H135 M12 71H135 M45 12V99 M93 12V99" fill="none" stroke="#b8cfd2" stroke-width="2"/>
+<rect x="13" y="47" width="31" height="22" fill="#c8e7ee"/>
+<rect x="47" y="73" width="44" height="24" fill="#aacfd7"/>
+<rect x="95" y="21" width="39" height="22" fill="#89b6c0"/>
+</g>
+<!-- BUILD -->
+<text x="839" y="282" font-family="DejaVu Sans,sans-serif" font-size="17" font-weight="700" letter-spacing="2" fill="#ad7b34">02  /  BUILD</text>
+<text x="838" y="336" font-family="DejaVu Sans,sans-serif" font-size="34" font-weight="800" fill="#172c38">FROM PROMPT TO PROOF</text>
+<text x="840" y="373" font-family="Noto Sans CJK KR,sans-serif" font-size="17" fill="#667980">페르소나 · 역할 분담 · 검증</text>
+<g transform="translate(1352 267)">
+<path d="M19 26L73 17L126 29 M73 17V84 M19 26L19 84 M126 29L126 84" fill="none" stroke="#d6b880" stroke-width="3"/>
+<circle cx="19" cy="26" r="12" fill="#ba8b42"/><circle cx="73" cy="17" r="12" fill="#e0c17c"/><circle cx="126" cy="29" r="12" fill="#ba8b42"/>
+<rect x="2" y="79" width="35" height="22" rx="4" fill="#e7d6b3"/><rect x="56" y="79" width="35" height="22" rx="4" fill="#e7d6b3"/><rect x="109" y="79" width="35" height="22" rx="4" fill="#e7d6b3"/>
+</g>
+<!-- DISCOVER -->
+<text x="839" y="464" font-family="DejaVu Sans,sans-serif" font-size="17" font-weight="700" letter-spacing="2" fill="#b94d74">03  /  DISCOVER</text>
+<text x="838" y="521" font-family="DejaVu Sans,sans-serif" font-size="43" font-weight="800" fill="#172c38">CITY//SHIFT</text>
+<text x="840" y="556" font-family="Noto Sans CJK KR,sans-serif" font-size="17" fill="#667980">역 · 날짜 · 시간 · 단서를 따라 탐험</text>
+<g transform="translate(1350 459)">
+<path d="M4 124H137" stroke="#b6c5c5" stroke-width="3"/>
+<g fill="#c46a88"><rect x="10" y="83" width="11" height="41" rx="2"/><rect x="30" y="61" width="11" height="63" rx="2"/><rect x="50" y="36" width="11" height="88" rx="2"/><rect x="70" y="70" width="11" height="54" rx="2"/><rect x="90" y="85" width="11" height="39" rx="2"/><rect x="110" y="98" width="11" height="26" rx="2"/></g>
+<path d="M10 105C33 102 33 89 55 90S96 114 125 118" stroke="#29869b" stroke-width="3.3" fill="none" stroke-dasharray="6 6"/>
+<circle cx="55" cy="90" r="6" fill="#fffefa" stroke="#29869b" stroke-width="3"/>
+</g>
+<text x="1521" y="649" font-family="DejaVu Sans,sans-serif" font-size="12" fill="#98a6ab" text-anchor="end">THREE OUTPUTS / ONE PORTFOLIO</text>
+</svg>
